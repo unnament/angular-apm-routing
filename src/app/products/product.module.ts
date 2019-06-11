@@ -35,7 +35,7 @@ import { ProductEditGuard } from './product-edit/product-edit.guard';
             redirectTo: 'info',
             pathMatch: 'full'
           },
-        {
+          {
             path: 'info',
             component: ProductEditInfoComponent
           },
